@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-custom {
+  background-color: theme('colors.primary');
+  color: theme('colors.background');
+  font-size: theme('fontSize.base');
+}
